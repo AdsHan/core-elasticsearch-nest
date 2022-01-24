@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{688EB24C-CAF8-4742-9BDA-1806EEEFDDB0}"
+	ProjectSection(SolutionItems) = preProject
+		docker\docker_infrastructure.yml = docker\docker_infrastructure.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B408EC5E-5DBB-4E66-8C0F-DD9AD1ED115B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELN.Elasticsearch.API", "src\ELN.Elasticsearch.API\ELN.Elasticsearch.API.csproj", "{8EACBBC2-47DF-4107-A9EF-5E4306F6FFD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{8DBA48D2-51A4-4EDA-ADC0-3CC6F3249C96}"
+	ProjectSection(SolutionItems) = preProject
+		assets\people_JSON.json = assets\people_JSON.json
+		assets\people_NDJSON.json = assets\people_NDJSON.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EACBBC2-47DF-4107-A9EF-5E4306F6FFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EACBBC2-47DF-4107-A9EF-5E4306F6FFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EACBBC2-47DF-4107-A9EF-5E4306F6FFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EACBBC2-47DF-4107-A9EF-5E4306F6FFD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EACBBC2-47DF-4107-A9EF-5E4306F6FFD3} = {B408EC5E-5DBB-4E66-8C0F-DD9AD1ED115B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DE66318-AB77-4982-B433-CED6362AA984}
+	EndGlobalSection
+EndGlobal
